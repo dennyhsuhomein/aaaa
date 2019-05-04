@@ -1,0 +1,175 @@
+body{
+		font-family: "微软雅黑";
+		
+}
+
+
+.fix:before,
+.fix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+
+#login-back-img{
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	height:100vh;
+	width: 100%;
+	/*background-color: red;*/
+	margin: 0 auto;
+	/*background: url(../../img/index_img/lbsb.jpeg) no-repeat center top;*/
+}
+#login-back-img > img {
+	height: 100%;
+	/*width: 100%;*/
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+#login {
+	position: relative;
+	width: 500px;
+	height: 420px;
+	box-shadow: 1px 1px 3px gray;
+	margin: 150px auto 0;
+	z-index: 999999;
+	background-color: rgba(255,255,255,1);
+	border-radius: 10px;
+}
+
+
+/*
+			 * icon css 
+			 * 	*/
+
+#icon {
+	/*background-color: #bfa;*/
+	height: 70px;
+	text-align: center;
+}
+
+#icon img {
+	height: 50px;
+	width: auto;
+	margin-top: 10px;
+}
+
+
+/*
+login-text css
+* */
+
+#login-text {
+	height: 40px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 25px;
+}
+
+
+
+
+/*
+ login-form css ***************!!!!!!!!!!
+  login-form css ***************!!!!!!!!!!
+   login-form css ***************!!!!!!!!!!
+ * */
+
+#login-form {
+	height: 200px;
+	
+}
+
+#password-bigblock,
+#acount-bigblock{
+	/*position: absolute;*/
+	margin: auto;	
+	width: 300px;
+}
+#acount-bigblock{
+	margin-top: 30px;
+}
+
+#password-display-placeholder,
+#acount-display-placeholder{
+	position: relative;
+	top: 32px;
+	left: 11px;
+	background-color: rgba(255,255,255,1);
+	color: rgb(169,169,169);
+	font-size: 16px;
+	z-index: 888;
+}
+
+.login-span-blue{
+	color: cornflowerblue;
+}
+
+
+
+#memberPassword,
+#memberAcount{
+	position: relative;
+	width: 300px;
+	border: 1px solid rgba(200,200,200,03);
+	height: 40px;
+	padding: 0 10px;
+	font-size: 16px;
+	/*z-index: 9999;*/
+}
+#memberPassword::-webkit-input-placeholder,
+#memberAcount::-webkit-input-placeholder{
+	color: rgb(169,169,169);
+}
+
+.visibility-hidden{
+	/*display: none;*/
+	visibility: hidden;
+}
+
+
+#login-others {
+	height: 50px;
+}
+
+#login-others>div {
+	height: 50px;
+	width: 50%;
+	float: left;
+}
+
+#login-others>div>div {
+	text-align: center;
+	height: 50%;
+	font: 1px bold "微软雅黑";
+	line-height: 25px;
+}
+
+#login-button {
+	text-align: center;
+	
+}
+
+#login-button button {
+	margin-top: 6px;
+	font-family: "微软雅黑";
+	font-style: bold;
+}
+
+a {
+	text-decoration: none;
+	color: cornflowerblue;
+}
+
+a:hover {
+	color: mediumpurple;
+	text-decoration: none;
+}
